@@ -1,0 +1,45 @@
+// COLORS
+
+$white: #fff;
+$black: #101010;
+$introBlack:#0E0E0E;
+$BurgerBtnColor: #5C6266;
+$whiteGrey:#F6F6F6;
+$yellow:#FFCB05;
+$Anim: .2s ease-in-out;
+
+// FONTS
+$OpenSans: 'Open Sans', sans-serif;
+$Firs__Neue:'TT Firs Neue','Open Sans', sans-serif;
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: local('../fonts/TTFirsNeue-Bold/TT Firs Neue Bold'), local('TT-Firs-Neue-Bold'),
+        url('../fonts/TTFirsNeue-Bold/TTFirsNeue-Bold.woff2') format('woff2'),
+        url('../fonts/TTFirsNeue-Bold/TTFirsNeue-Bold.woff') format('woff'),
+        url('../fonts/TTFirsNeue-Bold/TTFirsNeue-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}  
+
+$Gotham-Pro:'Gotham Pro','Open Sans', sans-serif;
+@font-face {
+    font-family: 'Gotham Pro';
+    src: local('../fonts/GothamPro-Bold/Gotham Pro Bold'), local('Gotham-Pro-Bold'),
+        url('../fonts/GothamPro-Bold/GothamPro-Bold.woff2') format('woff2'),
+        url('../fonts/GothamPro-Bold/GothamPro-Bold.woff') format('woff'),
+        url('../fonts/GothamPro-Bold/GothamPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+$Avenir:'Avenir Next Cyr Bold','Open Sans', sans-serif;
+@font-face {
+    font-family: 'Avenir Next Cyr Bold';
+    src: url('../fonts/Avenir-Next-Cyr-Bold/AvenirNextCyr-Bold.eot');
+    src: url('AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Avenir-Next-Cyr-Bold/AvenirNextCyr-Bold.woff') format('woff'),
+    url('../fonts/Avenir-Next-Cyr-Bold/AvenirNextCyr-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+    
