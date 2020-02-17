@@ -215,26 +215,34 @@ $headerHeight:80px;
         border-radius: 50%;
         height: 200px;
         width: 200px;
-        opacity: 0.5;
-        border: 2px solid $yellow;
+        opacity: 0;
+        border: 3px solid $yellow;
         transform: translate(-50%,-50%);
+        z-index: -1;
+        transition:transform 2s ease;
         
+        &:hover {
+            transform: scale(1.7);
+        }
 
         position: absolute;
         left: 11.4%;
         top: 51.7%;
+
+        $cirleAnim: ease-in-out;
         
         &--1 {
-            animation: circle--1 7s linear infinite;
+            animation: circle--1 13s $cirleAnim infinite  ;
         }
         &--2 {
-            animation: circle--2 14s linear infinite;
+            animation: circle--2 21s $cirleAnim  infinite 7s;
         }
         &--3 {
-            animation: circle--3 21s linear infinite;
+            animation: circle--3 34s $cirleAnim infinite 14s;
         }
-        &--3 {
-            animation: circle--4 28s linear infinite;
+        &--4 {
+            animation: circle--4 55s $cirleAnim  infinite 28s;
+            
         }
     }
     
