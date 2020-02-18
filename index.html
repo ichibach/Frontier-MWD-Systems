@@ -84,10 +84,25 @@
     </div>
 </header>
 
+<nav class="nav-scroll ">
+    <span class="nav-scroll__item nav-scroll__item--active">
+        <div class="nav-scroll__line nav-scroll__line--black"></div>
+    </span>
+    <span class="nav-scroll__item">
+        <div class="nav-scroll__line nav-scroll__line--black"></div>
+    </span>
+    <span class="nav-scroll__item">
+        <div class="nav-scroll__line nav-scroll__line--black"></div>
+    </span>
+    <span class="nav-scroll__item">
+        <div class="nav-scroll__line nav-scroll__line--black"></div>
+    </span>
+</nav>
+
     
 <!-- ====================== Screen 1 ==========================-->
     <!-- =================== Intro ===================== -->
-<section class="intro screen" >
+<section class="intro screen screen--fullScreen" id="screen--1">
     <div class="container">
         <div class="intro__inner">
             <!-- <svg class="intro__svg">
@@ -118,9 +133,9 @@
 
   
 <!-- ====================== Screen 2 ==========================-->
-<section class="screen--white" id="screen2">
+<section class="screen screen--45vh screen--white container" id="screen--2">
     <!-- ================ About_Us ==================== -->
-    <div class="container__p80--border">
+    <div class="container container__p80--border">
         <div class="about_us  container--border">
             <div class="about_us__title">About us</div>
             <div class="about_us__text">Frontier MWD Systems provides customers with the option to rent, lease to own and/or purchase advanced MWD/LWD kits backed by an industry-leading commitment to service and support.</div>
@@ -132,7 +147,7 @@
 
 </section>
 
-<div class="products">
+<section class="products screen screen--80vh" id="screen--3">
 
         <div class="products__card">
             <div class="products__title">MWD/LWD Tools</div>
@@ -176,11 +191,11 @@
                 </div>
         </div>
             
-</div>
+</section>
         
     
 
-<section class="screen screen--white"></section>
+<section class="screen screen--white screen--fullScreen" id="screen--4"></section>
 
 </body>
 <!-- <script src="scripts/animation.js"></script> -->

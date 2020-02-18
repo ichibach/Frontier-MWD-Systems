@@ -15,6 +15,21 @@
 }
 
 @keyframes slideOutDown {
+  0% {
+    opacity: 0.3;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+    100% {
+        opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    
+   
+  }
+
+  @keyframes slideInUp {
     0% {
         opacity: 0;
       -webkit-transform: translate3d(0, -100%, 0);
